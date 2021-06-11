@@ -1,7 +1,7 @@
 ﻿SystemUtil.CloseProcessByName "iexplore.exe"
 SystemUtil.Run "iexplore.exe", "https://advantageonlineshopping.com"
 For sendFeedback = 1 To 4 Step 1
-Next
+
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("Link").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").Link("Link")_;_script infofile_;_ZIP::ssf1.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebList("categoryListboxContactUs").Select DataTable("categoryListboxContactUs_Item", dtGlobalSheet) @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebList("categoryListboxContactUs")_;_script infofile_;_ZIP::ssf2.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("ProductHP Chromebook 14").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("ProductHP Chromebook 14")_;_script infofile_;_ZIP::ssf3.xml_;_
@@ -17,6 +17,6 @@ Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("* Subject s
 Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("send_btnundefined").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("send btnundefined")_;_script infofile_;_ZIP::ssf13.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Thank you for contacting").Check CheckPoint("Thank you for contacting Advantage support.") @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Thank you for contacting")_;_script infofile_;_ZIP::ssf14.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("CONTINUE SHOPPING").Click @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").Link("CONTINUE SHOPPING")_;_script infofile_;_ZIP::ssf15.xml_;_
-For Iterator = 1 To 1 Step 1
+
 Next
 SystemUtil.CloseProcessByName "iexplore.exe"
